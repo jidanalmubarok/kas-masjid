@@ -1,0 +1,179 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #004d40, #00796b); /* Gradasi hijau */
+    color: #333;
+}
+
+
+.sidebar {
+    width: 200px;
+    background-color: #2e7031; /* Warna sidebar lebih terang */
+    color: white;
+    position: fixed;
+    height: 100%;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h2 {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 15px;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    padding: 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.sidebar ul li a:hover {
+    background-color: #1f4e26; /* Warna hover sidebar */
+}
+
+.main-content {
+    margin-left: 220px;
+    padding: 20px;
+}
+
+.header {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 24px;
+    margin: 0;
+    color: white; /* Warna teks header */
+}
+
+.header p {
+    font-size: 16px;
+    color: #f0f0f0; /* Warna teks deskripsi header */
+}
+
+.financial-summary {
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex: 1;
+}
+
+.card h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #0a0a0a;
+}
+
+.card p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #27ae60;
+    margin: 0;
+}
+
+.transaction-list {
+    margin-top: 20px;
+}
+
+.transaction-list h2 {
+    font-size: 20px;
+    color: white; /* Warna teks judul transaksi */
+    margin-bottom: 10px;
+}
+
+.transaction-list table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.transaction-list th,
+.transaction-list td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.transaction-list th {
+    background-color: #000103;
+    color: white;
+    font-size: 14px;
+}
+
+.transaction-list td {
+    font-size: 14px;
+}
+
+.transaction-list tr:last-child td {
+    border-bottom: none;
+}
+
+.status.success {
+    color: #27ae60;
+    font-weight: bold;
+}
+
+.status.failed {
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #2e7031;
+    color: white;
+    font-size: 14px;
+}
+.donation-list h2 {
+    font-size: 22px;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+.donation-list table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+.donation-list th, .donation-list td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+.donation-list th {
+    background: #ecf0f1;
+    color: #2c3e50;
+}
+.donation-list tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
